@@ -56,7 +56,7 @@ app.get('/products', (req, res) => {
         return res.send({
             error: 'You must provide a search term.'
         })
-    }
+    } 
     res.send({
         products: []
     })
